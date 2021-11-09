@@ -1,0 +1,15 @@
+{
+  "name": "@test/foo",
+  "version": "0.0.1",
+  "private": true,
+  "source": "src/index.js",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "parcel build"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "parcel": "^2.0.1",
+    "babel-plugin-transform-remove-console": "^6.9.4"
+  }
+}
